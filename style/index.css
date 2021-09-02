@@ -88,3 +88,42 @@ h2{
     margin: 1.5% 10%;
 
 }
+.middle-img{
+   
+}
+
+/*Bottom Section Styles*/
+.bottom{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+
+.left-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 30px; */
+}
+.img1, .img2, .img3, .img4{
+    margin-right: 2%;
+}
+.right-txt{
+    margin-top: 10%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+/*Footer Styles*/
+footer{
+    background-color: black;
+    color: #ffff;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    
+
+}
