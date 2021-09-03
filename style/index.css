@@ -41,7 +41,9 @@ blockquote, q {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width:100%
+    max-width:100%;
+    background-color: #fefae0;
+    
 }
 
 /*Header Styles*/
@@ -62,15 +64,16 @@ header nav{
 header nav a{
     border: 1px solid black;
     padding: .5% 2%;
-    color: #4f4f4f;
+    color: #fff;
     text-decoration: none;
+    background-color: #606c38;
 }
 header nav a:hover{
     border: 1px solid black;
     padding: .5% 2%;
     color: #fff;
     text-decoration: none;
-    background-color: black;
+    background-color: #283618;
 }
 
 /*Middle Section Styles*/
@@ -78,7 +81,7 @@ header nav a:hover{
 h2{
     text-align: center;
     font-weight: bolder;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2%;
     /* margin-bottom: 2%; */
     text-transform: uppercase;
@@ -88,7 +91,12 @@ h2{
     margin: 1.5% 10%;
 
 }
-.middle-img{
+.middle-img img{
+   width: 100%;
+   height: 70vh;
+   background-size: auto;
+   object-position: right top;
+
    
 }
 
@@ -116,7 +124,7 @@ margin-top: 2%;
 
 /*Footer Styles*/
 footer{
-    background-color: black;
+    background-color:#936639;
     color: #ffff;
     padding: 5%;
     display: flex;
@@ -125,7 +133,7 @@ footer{
 
 .button{
    font-size: 16px;
-   background-color: red;
+   background-color:#dda15e;
    border: none;
    color: #fff;
    padding: 15px 32px;
