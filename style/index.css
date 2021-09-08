@@ -143,3 +143,29 @@ footer{
    ;
 
 }
+
+/*Media Quries*/
+
+/*Tablet*/
+@media(max-width:800px){
+.header nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    border: 1px solid #4f4f4f;
+}
+
+}
+
+
+/*Phone*/
+@media(max-width:500px){
+    .header nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 20px;
+        border: 1px solid #4f4f4f;
+    }
+}
