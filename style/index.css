@@ -1,1 +1,171 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width:100%;
+    background-color: #fefae0;
+    
+}
+
+/*Header Styles*/
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1%;
+    text-transform: uppercase;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5%;
+}
+header nav a{
+    border: 1px solid black;
+    padding: .5% 2%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #606c38;
+}
+header nav a:hover{
+    border: 1px solid black;
+    padding: .5% 2%;
+    color: #fff;
+    text-decoration: none;
+    background-color: #283618;
+}
+
+/*Middle Section Styles*/
+
+h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+    text-transform: uppercase;
+}
+.intro p{
+    text-align: center;
+    margin: 1.5% 10%;
+
+}
+.middle-img img{
+   width: 100%;
+   height: 70vh;
+   background-size: auto;
+   object-position: right top;
+
+   
+}
+
+/*Bottom Section Styles*/
+.bottom{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 2%;
+margin-top: 2%;
+}
+
+.left-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 30px; */
+}
+.img1, .img2, .img3, .img4{
+    margin-right: 2%;
+}
+.right-txt{
+    margin-top: 10%;
+    margin-right: 3%;
+    text-align: center;
+}
+
+/*Footer Styles*/
+footer{
+    background-color:#936639;
+    color: #ffff;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+   font-size: 16px;
+   background-color:#dda15e;
+   border: none;
+   color: #fff;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block
+   ;
+
+}
+
+/*Media Quries*/
+
+/*Tablet*/
+@media(max-width:800px){
+.header nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    border: 1px solid #4f4f4f;
+}
+
+}
+
+
+/*Phone*/
+@media(max-width:500px){
+    .header nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 20px;
+        border: 1px solid #4f4f4f;
+    }
+}
